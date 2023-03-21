@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "@next/font/google";
 import Hero from "@/section/hero";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -12,8 +11,6 @@ import Features from "@/section/features";
 import CTA from "@/section/cta";
 
 import Layout from "@/component/layout/layout";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   useEffect(() => {

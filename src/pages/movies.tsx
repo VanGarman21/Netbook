@@ -2,7 +2,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import React, { useEffect, useState } from "react";
-import { useQuery } from "react-query";
 import { getPopularMovies } from "@/pages/api/tmdbAPI";
 import Layout from "@/component/layout/layout";
 import Head from "next/head";
